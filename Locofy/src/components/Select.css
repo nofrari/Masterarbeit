@@ -1,0 +1,45 @@
+.select-label {
+  align-self: stretch;
+  font-weight: 600;
+}
+.down-icon,
+.select-label,
+.select-options {
+  position: relative;
+}
+.down-icon {
+  width: 18px;
+  height: 9px;
+  object-fit: contain;
+}
+.select,
+.select-input {
+  display: flex;
+  align-items: center;
+}
+.select-input {
+  align-self: stretch;
+  height: 45px;
+  box-shadow: var(--MA-dropshadow-down);
+  border-radius: var(--br-4);
+  background-color: var(--white);
+  border: 1px solid var(--foreground);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-10);
+  gap: 0;
+  font-size: var(--font-size-14);
+  color: var(--foreground);
+}
+.select {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-5);
+  max-width: 600px;
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--primary);
+  font-family: var(--font-quicksand);
+}

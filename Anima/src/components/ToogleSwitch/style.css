@@ -1,0 +1,19 @@
+.toogle-switch {
+  align-items: center;
+  background-color: var(--madisabled);
+  border-radius: 30px;
+  display: flex;
+  gap: 4px;
+  padding: 2px;
+  position: relative;
+  width: 40px;
+}
+
+.toogle-switch .slider {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px #00000040;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}

@@ -1,0 +1,87 @@
+.modal {
+  align-items: center;
+  background-color: var(--mabackground);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  padding: 25px;
+  position: relative;
+  width: 345px;
+}
+
+.modal .header-3 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.modal .erika-plant-2 {
+  height: 38px;
+  margin-left: -1.00px;
+  position: relative;
+  width: 27.2px;
+}
+
+.modal .modal-title {
+  color: var(--maprimary);
+  flex: 1;
+  font-family: var(--MA-h2-font-family);
+  font-size: var(--MA-h2-font-size);
+  font-style: var(--MA-h2-font-style);
+  font-weight: var(--MA-h2-font-weight);
+  letter-spacing: var(--MA-h2-letter-spacing);
+  line-height: var(--MA-h2-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.modal .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 236px;
+}
+
+.modal .text-i {
+  align-self: stretch;
+  color: var(--maforeground);
+  font-family: "Quicksand", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.modal .span {
+  font-family: var(--MA-p-font-family);
+  font-size: var(--MA-p-font-size);
+  font-style: var(--MA-p-font-style);
+  font-weight: var(--MA-p-font-weight);
+  letter-spacing: var(--MA-p-letter-spacing);
+  line-height: var(--MA-p-line-height);
+}
+
+.modal .text-wrapper-5 {
+  font-family: var(--MA-p-bold-font-family);
+  font-size: var(--MA-p-bold-font-size);
+  font-style: var(--MA-p-bold-font-style);
+  font-weight: var(--MA-p-bold-font-weight);
+  letter-spacing: var(--MA-p-bold-letter-spacing);
+  line-height: var(--MA-p-bold-line-height);
+}
+
+.modal .button-4 {
+  flex: 0 0 auto !important;
+  z-index: 0 !important;
+}

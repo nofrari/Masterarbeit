@@ -1,0 +1,98 @@
+.accordion {
+  align-items: center;
+  background-color: var(--mawhite);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--maforegroundlight);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 14px 5px;
+  position: relative;
+  width: 323px;
+}
+
+.accordion .accordion-summary {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.accordion .accordion-title {
+  color: var(--maforeground);
+  flex: 1;
+  font-family: var(--MA-cardtitle-font-family);
+  font-size: var(--MA-cardtitle-font-size);
+  font-style: var(--MA-cardtitle-font-style);
+  font-weight: var(--MA-cardtitle-font-weight);
+  letter-spacing: var(--MA-cardtitle-letter-spacing);
+  line-height: var(--MA-cardtitle-line-height);
+  position: relative;
+}
+
+.accordion .up-icon {
+  height: 18px;
+  position: relative;
+  transform: rotate(90deg);
+  width: 9px;
+}
+
+.accordion .img {
+  height: 9px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-90deg);
+  width: 18px;
+}
+
+.accordion .down-icon {
+  height: 18px;
+  position: relative;
+  transform: rotate(-90deg);
+  width: 9px;
+}
+
+.accordion .down-icon-2 {
+  height: 9px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(90deg);
+  width: 18px;
+}
+
+.accordion .voting-controls {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.accordion .img-2 {
+  height: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 30px;
+}
+
+.accordion .accordion-details {
+  align-self: stretch;
+  color: var(--maforeground);
+  font-family: var(--MA-p-font-family);
+  font-size: var(--MA-p-font-size);
+  font-style: var(--MA-p-font-style);
+  font-weight: var(--MA-p-font-weight);
+  letter-spacing: var(--MA-p-letter-spacing);
+  line-height: var(--MA-p-line-height);
+  position: relative;
+}

@@ -1,0 +1,26 @@
+.erika-plant-icon {
+  height: 36px;
+  width: 25.2px;
+  position: relative;
+}
+.color-coding-information {
+  flex: 1;
+  position: relative;
+}
+.infobox {
+  width: 100%;
+  border-radius: var(--br-4);
+  border: 3px solid var(--MA-tertiary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-15);
+  gap: var(--gap-8);
+  max-width: 500px;
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--primary);
+  font-family: var(--font-quicksand);
+}

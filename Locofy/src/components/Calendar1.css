@@ -1,0 +1,57 @@
+.your-preference {
+  position: relative;
+  font-weight: 500;
+}
+.toogleswitch-icon {
+  flex: 1;
+  border-radius: var(--br-30);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.preference-option {
+  width: 172px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10);
+}
+.filter-icon,
+.share-icon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.share-icon {
+  width: 22px;
+}
+.filter-and-share-options {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-20);
+}
+.calendar-options,
+.calendar1,
+.filter-and-share-options {
+  display: flex;
+  align-items: center;
+}
+.calendar-options {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+}
+.calendar1 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-15);
+  max-width: 350px;
+  text-align: center;
+  font-size: var(--font-size-14);
+  color: var(--foreground);
+  font-family: var(--font-quicksand);
+}

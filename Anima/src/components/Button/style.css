@@ -1,0 +1,38 @@
+.button {
+  all: unset;
+  align-items: center;
+  background-color: var(--maprimary);
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+  max-width: 400px;
+  padding: 12px 25px;
+  position: relative;
+  width: 144px;
+}
+
+.button .button-name {
+  color: var(--mawhite);
+  flex: 1;
+  font-family: var(--MA-lable-font-family);
+  font-size: var(--MA-lable-font-size);
+  font-style: var(--MA-lable-font-style);
+  font-weight: var(--MA-lable-font-weight);
+  letter-spacing: var(--MA-lable-letter-spacing);
+  line-height: var(--MA-lable-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.button .button-icon {
+  height: 19.25px !important;
+  left: unset !important;
+  margin-left: -4.62px !important;
+  position: relative !important;
+  top: unset !important;
+  width: 19.25px !important;
+}

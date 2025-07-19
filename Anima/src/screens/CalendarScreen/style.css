@@ -1,0 +1,183 @@
+.calendar-screen {
+  align-items: center;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 65px 0px 0px;
+  position: relative;
+  width: 393px;
+}
+
+.calendar-screen .header-4 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 0px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.calendar-screen .logo-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.calendar-screen .erika-logo-2 {
+  height: 37.72px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+
+.calendar-screen .erika-logo-text-2 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    98deg,
+    rgba(8, 128, 137, 1) 0%,
+    rgba(99, 195, 125, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Quicksand", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.calendar-screen .notification-icon-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 25px;
+  position: relative;
+}
+
+.calendar-screen .notification-icon {
+  height: 25px;
+  object-fit: cover;
+  position: relative;
+  width: 25px;
+}
+
+.calendar-screen .main-2 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  max-width: 800px;
+  padding: 0px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.calendar-screen .design-component-instance-node-3 {
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.calendar-screen .infobox-instance {
+  margin-top: -3.00px !important;
+}
+
+.calendar-screen .calendar-instance {
+  flex: 0 0 auto !important;
+  max-width: 350px !important;
+  width: 100% !important;
+}
+
+.calendar-screen .button-icon-2 {
+  height: 19.25px !important;
+  left: unset !important;
+  margin-left: -4.62px !important;
+  position: relative !important;
+  top: unset !important;
+  width: 19.25px !important;
+}
+
+.calendar-screen .initiatives-list {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.calendar-screen .registerd-initiative-2 {
+  align-self: stretch !important;
+  background: linear-gradient(
+    90deg,
+    rgba(173, 127, 235, 1) 0%,
+    rgba(159, 217, 175, 1) 100%
+  ) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.calendar-screen .design-component-instance-node-4 {
+  left: unset !important;
+  margin-left: -2.00px !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.calendar-screen .default-initiative-3 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.calendar-screen .default-initiative-4 {
+  overflow: unset !important;
+}
+
+.calendar-screen .workshop-icon-2 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.calendar-screen .information-icon-instance {
+  background-image: unset !important;
+  background-size: unset !important;
+  width: 18px !important;
+}
+
+.calendar-screen .more-link {
+  align-self: stretch;
+  color: var(--maprimary);
+  font-family: var(--MA-link-font-family);
+  font-size: var(--MA-link-font-size);
+  font-style: var(--MA-link-font-style);
+  font-weight: var(--MA-link-font-weight);
+  letter-spacing: var(--MA-link-letter-spacing);
+  line-height: var(--MA-link-line-height);
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.calendar-screen .navigation-bar-2 {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}

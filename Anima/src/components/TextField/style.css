@@ -1,0 +1,36 @@
+.text-field {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  max-width: 600px;
+  position: relative;
+  width: 347px;
+}
+
+.text-field .text-field-label {
+  align-self: stretch;
+  color: var(--maprimary);
+  font-family: var(--MA-lable-font-family);
+  font-size: var(--MA-lable-font-size);
+  font-style: var(--MA-lable-font-style);
+  font-weight: var(--MA-lable-font-weight);
+  letter-spacing: var(--MA-lable-letter-spacing);
+  line-height: var(--MA-lable-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.text-field .text-field-input {
+  align-self: stretch;
+  background-color: var(--mawhite);
+  border: 1px solid;
+  border-color: var(--maforeground);
+  border-radius: 4px;
+  box-shadow: var(--MA-dropshadow-down);
+  height: 45px;
+  position: relative;
+  width: 100%;
+}

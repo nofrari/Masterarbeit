@@ -1,0 +1,357 @@
+.homepage {
+  align-items: center;
+  background-color: var(--mabackground);
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 65px 0px 0px;
+  position: relative;
+  width: 393px;
+}
+
+.homepage .header {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 0px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .logo {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .erika-logo {
+  height: 37.72px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+
+.homepage .erika-logo-text {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    98deg,
+    rgba(8, 128, 137, 1) 0%,
+    rgba(99, 195, 125, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: var(--MA-logotext-font-family);
+  font-size: var(--MA-logotext-font-size);
+  font-style: var(--MA-logotext-font-style);
+  font-weight: var(--MA-logotext-font-weight);
+  letter-spacing: var(--MA-logotext-letter-spacing);
+  line-height: var(--MA-logotext-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.homepage .options {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage .img-4 {
+  height: 25px;
+  object-fit: cover;
+  position: relative;
+  width: 25px;
+}
+
+.homepage .main {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  max-width: 800px;
+  padding: 0px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .erika-progress-card {
+  height: 266px;
+  margin-top: -6.00px;
+  position: relative;
+  width: 266px;
+}
+
+.homepage .virtual-garden {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 270px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .section-title {
+  align-self: stretch;
+  color: var(--maforeground);
+  font-family: var(--MA-h2-font-family);
+  font-size: var(--MA-h2-font-size);
+  font-style: var(--MA-h2-font-style);
+  font-weight: var(--MA-h2-font-weight);
+  letter-spacing: var(--MA-h2-letter-spacing);
+  line-height: var(--MA-h2-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.homepage .virtual-garden-2 {
+  height: 216px;
+  margin-bottom: -10.00px;
+  margin-left: -8.00px;
+  margin-right: -8.00px;
+  max-width: 343px;
+  min-width: 270px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .initiatives {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .div-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .registerd-initiative {
+  align-self: stretch !important;
+  background: linear-gradient(
+    90deg,
+    rgba(173, 127, 235, 1) 0%,
+    rgba(159, 217, 175, 1) 100%
+  ) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage .design-component-instance-node {
+  left: unset !important;
+  margin-left: -2.00px !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.homepage .initiative-card-instance {
+  overflow: unset !important;
+}
+
+.homepage .default-initiative-2 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage .workshop-icon-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.homepage .calendar-link {
+  align-self: stretch;
+  color: var(--maprimary);
+  font-family: var(--MA-link-font-family);
+  font-size: var(--MA-link-font-size);
+  font-style: var(--MA-link-font-style);
+  font-weight: var(--MA-link-font-weight);
+  letter-spacing: var(--MA-link-letter-spacing);
+  line-height: var(--MA-link-line-height);
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.homepage .button-instance {
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage .sparkle-icon-instance {
+  height: 19.25px !important;
+  left: unset !important;
+  margin-left: -4.62px !important;
+  position: relative !important;
+  top: unset !important;
+  width: 19.25px !important;
+}
+
+.homepage .section-header {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .section-title-2 {
+  color: var(--maforeground);
+  font-family: var(--MA-h2-font-family);
+  font-size: var(--MA-h2-font-size);
+  font-style: var(--MA-h2-font-style);
+  font-weight: var(--MA-h2-font-weight);
+  letter-spacing: var(--MA-h2-letter-spacing);
+  line-height: var(--MA-h2-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage .info-icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.homepage .info-icon-2 {
+  display: block;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.homepage .accordion-list {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--mawhite);
+  border-radius: 4px;
+  box-shadow: var(--MA-dropshadow-down);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .accordion-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  min-width: 250px !important;
+  width: 100% !important;
+}
+
+.homepage .idea-submission {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .p {
+  align-self: stretch;
+  color: var(--maprimary);
+  font-family: var(--MA-p-bold-font-family);
+  font-size: var(--MA-p-bold-font-size);
+  font-style: var(--MA-p-bold-font-style);
+  font-weight: var(--MA-p-bold-font-weight);
+  letter-spacing: var(--MA-p-bold-letter-spacing);
+  line-height: var(--MA-p-bold-line-height);
+  position: relative;
+}
+
+.homepage .button-2 {
+  all: unset;
+  align-items: center;
+  background-color: var(--maprimary);
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+  max-width: 400px;
+  padding: 12px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage .plant-icon-wrapper {
+  height: 18px;
+  position: relative;
+  width: 10px;
+}
+
+.homepage .plant-icon {
+  height: 18px;
+  left: -4px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.homepage .button-name-2 {
+  color: var(--mawhite);
+  flex: 1;
+  font-family: var(--MA-lable-font-family);
+  font-size: var(--MA-lable-font-size);
+  font-style: var(--MA-lable-font-style);
+  font-weight: var(--MA-lable-font-weight);
+  letter-spacing: var(--MA-lable-letter-spacing);
+  line-height: var(--MA-lable-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.homepage .navigation-bar {
+  align-self: stretch;
+  flex: 0 0 auto;
+  margin-bottom: -6.00px;
+  margin-left: -10.00px;
+  margin-right: -10.00px;
+  position: relative;
+  width: 100%;
+}

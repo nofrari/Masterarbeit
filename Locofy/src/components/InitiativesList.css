@@ -1,0 +1,17 @@
+.more-link {
+  align-self: stretch;
+  position: relative;
+  text-decoration: underline;
+}
+.initiatives-list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-20);
+  text-align: center;
+  font-size: var(--font-size-16);
+  color: var(--primary);
+  font-family: var(--font-quicksand);
+}

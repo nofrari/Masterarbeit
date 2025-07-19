@@ -1,0 +1,1 @@
+export { ChallengeIcon } from "./ChallengeIcon";

@@ -1,0 +1,1 @@
+export { SubmitIdea } from "./SubmitIdea";

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-powderblue: #c8e3e4;
+  --color-teal: #007074;
+  --MA-warning: #d70000;
+  --MA-background: #f5f5f5;
+  --MA-foreground: #333;
+  --MA-secondary: #ad80eb;
+  --MA-white: #fff;
+  --MA-foreground-light: rgba(51, 51, 51, 0.5);
+  --MA-primary: #007073;
+  --MA-tertiary: #009d2b;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-5: 5px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-15: 15px;
+  --gap-20: 20px;
+  --gap-30: 30px;
+
+  /* Padding */
+  --padding-1: 1px;
+  --padding-2: 2px;
+  --padding-5: 5px;
+  --padding-6: 6px;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-12: 12px;
+  --padding-14: 14px;
+  --padding-15: 15px;
+  --padding-18: 18px;
+  --padding-20: 20px;
+  --padding-24: 24px;
+  --padding-30: 30px;
+
+  /* BorderRadius */
+  --br-4: 4px;
+  --br-10: 10px;
+  --br-15: 15px;
+  --br-20: 20px;
+  --br-30: 30px;
+  --br-100: 100px;
+
+  /* Font */
+  --font-quicksand: Quicksand;
+
+  /* FontSize */
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-30: 30px;
+
+  --MA-dropshadow-up: 0px -4px 10px rgba(0, 0, 0, 0.25);
+  --MA-dropshadow-down: 0px 2px 8px rgba(0, 0, 0, 0.45);
+
+  /* Figma Variables */
+
+  /* Color */
+  --primary: #007073;
+  --white: #fff;
+  --foreground: #333;
+  --background: #f5f5f5;
+}

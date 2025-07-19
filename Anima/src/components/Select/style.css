@@ -1,0 +1,67 @@
+.select {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  max-width: 600px;
+  position: relative;
+  width: 347px;
+}
+
+.select .select-label {
+  align-self: stretch;
+  color: var(--maprimary);
+  font-family: var(--MA-lable-font-family);
+  font-size: var(--MA-lable-font-size);
+  font-style: var(--MA-lable-font-style);
+  font-weight: var(--MA-lable-font-weight);
+  letter-spacing: var(--MA-lable-letter-spacing);
+  line-height: var(--MA-lable-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.select .select-input {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--mawhite);
+  border: 1px solid;
+  border-color: var(--maforeground);
+  border-radius: 4px;
+  box-shadow: var(--MA-dropshadow-down);
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  padding: 0px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.select .select-options {
+  color: var(--maforeground);
+  font-family: var(--MA-p-bold-font-family);
+  font-size: var(--MA-p-bold-font-size);
+  font-style: var(--MA-p-bold-font-style);
+  font-weight: var(--MA-p-bold-font-weight);
+  letter-spacing: var(--MA-p-bold-letter-spacing);
+  line-height: var(--MA-p-bold-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.select .down-icon-wrapper {
+  height: 18px;
+  position: relative;
+  transform: rotate(-90deg);
+  width: 9px;
+}
+
+.select .down-icon-3 {
+  height: 9px;
+  left: -4px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(90deg);
+  width: 18px;
+}
