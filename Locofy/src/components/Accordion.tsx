@@ -62,27 +62,6 @@ const Accordion: FunctionComponent<AccordionType> = ({
           {accordionDetails}
         </div>
       )}
-       <div className="accordion-summary">
-        <div className="accordion-title">{accordionTitle}</div>
-        {!!open1 && (
-          <img className="up-icon" loading="lazy" alt="" src={upIcon} />
-        )}
-        {!!closed1 && <img className="down-icon1" alt="" src={downIcon} />}
-        <div className="voting-controls">
-          <img
-            className="dislike-icon"
-            loading="lazy"
-            alt=""
-            src={dislikeIcon}
-          />
-          <img className="dislike-icon" loading="lazy" alt="" src={likeIcon} />
-        </div>
-      </div>
-      {!!showAccordionDetails && (
-        <div className="accordion-details" style={accordionDetailsStyle}>
-          {accordionDetails}
-        </div>
-      )}
     </div>
   );
 };
