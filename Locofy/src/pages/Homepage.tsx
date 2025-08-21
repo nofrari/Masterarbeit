@@ -12,24 +12,24 @@ const Homepage: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onButtonClick = useCallback(() => {
-    navigate("/submitidea");
+    navigate("/");
   }, [navigate]);
 
   const onCalendarIconClick = useCallback(() => {
-    navigate("/");
+    navigate("/calendar");
   }, [navigate]);
 
   return (
     <div className="homepage">
-      <div className="header2">
-        <div className="logo1">
+      <div className="header1">
+        <div className="logo">
           <img
-            className="erika-logo-icon1"
+            className="erika-logo-icon"
             loading="lazy"
             alt=""
             src="Erika Logo.png"
           />
-          <h1 className="erika-logo-text1">ERIKA</h1>
+          <h1 className="erika-logo-text">ERIKA</h1>
         </div>
         <div className="options">
           <img
@@ -46,7 +46,7 @@ const Homepage: FunctionComponent = () => {
           />
         </div>
       </div>
-      <main className="main1">
+      <main className="main">
         <div className="erika-progress-card">
           <FrameComponent1 />
         </div>
@@ -104,7 +104,13 @@ const Homepage: FunctionComponent = () => {
           />
         </div>
       </main>
-      <NavigationBar onCalendarIconClick={onCalendarIconClick} />
+       <NavigationBar
+        onCalendarIconClick={onCalendarIconClick}
+        homepage
+        calendar={false}
+        showCalendarIcon
+        calendarIconVisible={false}
+      />
     </div>
   );
 };

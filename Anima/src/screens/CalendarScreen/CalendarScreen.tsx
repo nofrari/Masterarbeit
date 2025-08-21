@@ -11,44 +11,43 @@ import { WorkshopIcon } from "../../components/WorkshopIcon";
 import "./style.css";
 
 export const CalendarScreen = (): JSX.Element => {
+  
   return (
     <div className="calendar-screen" data-model-id="2911:1747">
-      <header className="header-4">
-        <div className="logo-2">
+      <header className="header">
+        <div className="logo">
           <img
-            className="erika-logo-2"
+            className="erika-logo"
             alt="Erika logo"
             src="/img/erika-logo-1.png"
           />
 
-          <div className="erika-logo-text-2">ERIKA</div>
+          <div className="erika-logo-text">ERIKA</div>
         </div>
 
-        <div className="notification-icon-wrapper">
-          <img
-            className="notification-icon"
-            alt="Notification icon"
-            src="/img/notification-icon-1.png"
-          />
-        </div>
+        <img
+          className="notification-icon"
+          alt="Notification icon"
+          src="/img/notification-icon-1.png"
+        />
       </header>
 
-      <div className="main-2">
+      <div className="main">
         <Infobox
-          className="design-component-instance-node-3"
+          className="design-component-instance-node"
           colorCodingClassName="infobox-instance"
           content="Die Initiativen, bei denen du dich angemeldet hast, sind in Lila markiert."
           erikaPlant="/img/erika-plant-3.png"
         />
         <Calendar className="calendar-instance" />
         <Button
-          buttonClassName="design-component-instance-node-3"
+          buttonClassName="design-component-instance-node"
           buttonName="Entdecke passende Initiativen"
-          override={<SparkleIcon className="button-icon-2" />}
+          override={<SparkleIcon className="sparkle-icon-instance" />}
         />
         <div className="initiatives-list">
           <InitiativeCard
-            className="registerd-initiative-2"
+            className="registerd-initiative"
             default1={false}
             initiativeDay="30."
             initiativeLocation="Zuhause"
@@ -56,12 +55,12 @@ export const CalendarScreen = (): JSX.Element => {
             initiativeNumberOfDays="Tag 3 von 7"
             initiativeTitle="1 Woche Vegan"
             override={
-              <ChallengeIcon className="design-component-instance-node-4" />
+              <ChallengeIcon className="design-component-instance-node-2" />
             }
           />
           <InitiativeCard
-            className="default-initiative-3"
-            defaultInitiativeClassName="default-initiative-4"
+            className="default-initiative-2"
+            defaultInitiativeClassName="initiative-card-instance"
             initiativeDay="01."
             initiativeLocation="Oberer Stadtplatz"
             initiativeMonthAndYear="Jul 2025"
@@ -69,14 +68,14 @@ export const CalendarScreen = (): JSX.Element => {
             initiativeTitle="Wochenmarkt"
             override={
               <OfferIcon
-                className="design-component-instance-node-4"
+                className="design-component-instance-node-2"
                 offerIcon="/img/offericon-3.png"
               />
             }
             registered={false}
           />
           <InitiativeCard
-            className="default-initiative-3"
+            className="default-initiative-2"
             initiativeDay="02."
             initiativeLocation="STURMFrei Werkraum"
             initiativeMonthAndYear="Jul 2025"
@@ -84,15 +83,15 @@ export const CalendarScreen = (): JSX.Element => {
             initiativeTitle="Repair Café"
             override={
               <WorkshopIcon
-                className="workshop-icon-2"
+                className="workshop-icon-instance"
                 workshopIcon="/img/workshopicon-2.png"
               />
             }
             registered={false}
           />
           <InitiativeCard
-            className="default-initiative-3"
-            defaultInitiativeClassName="default-initiative-4"
+            className="default-initiative-2"
+            defaultInitiativeClassName="initiative-card-instance"
             initiativeDay="04."
             initiativeLocation="Oberer Stadtplatz"
             initiativeMonthAndYear="Jul 2025"
@@ -100,15 +99,15 @@ export const CalendarScreen = (): JSX.Element => {
             initiativeTitle="Wochenmarkt"
             override={
               <OfferIcon
-                className="design-component-instance-node-4"
+                className="design-component-instance-node-2"
                 offerIcon="/img/offericon-3.png"
               />
             }
             registered={false}
           />
           <InitiativeCard
-            className="default-initiative-3"
-            defaultInitiativeClassName="default-initiative-4"
+            className="default-initiative-2"
+            defaultInitiativeClassName="initiative-card-instance"
             initiativeDay="05."
             initiativeLocation="VHS Schulzentrum"
             initiativeMonthAndYear="Jul 2025"
@@ -116,14 +115,14 @@ export const CalendarScreen = (): JSX.Element => {
             initiativeTitle="Vegane Sommerküche"
             override={
               <WorkshopIcon
-                className="workshop-icon-2"
+                className="workshop-icon-instance"
                 workshopIcon="/img/workshopicon-2.png"
               />
             }
             registered={false}
           />
           <InitiativeCard
-            className="default-initiative-3"
+            className="default-initiative-2"
             initiativeDay="07."
             initiativeLocation="STURMFrei Werkraum"
             initiativeMonthAndYear="Jul 2025"
@@ -137,9 +136,9 @@ export const CalendarScreen = (): JSX.Element => {
       </div>
 
       <img
-        className="navigation-bar-2"
+        className="navigation-bar"
         alt="Navigation bar"
-        src="/img/navigationbar-1.png"
+        src="/img/navigationbar.png"
       />
     </div>
   );

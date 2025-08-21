@@ -52,35 +52,35 @@ export const InitiativeCard = ({
         {default1 && (
           <div className={`default-initiative ${defaultInitiativeClassName}`}>
             <div className="initiative-time">
-              <div className="text-wrapper">{initiativeTime}</div>
+              <div className="text-wrapper-3">{initiativeTime}</div>
             </div>
 
             <div className="initiative-location">
-              <div className="text-wrapper">{initiativeLocation}</div>
+              <div className="text-wrapper-3">{initiativeLocation}</div>
             </div>
           </div>
         )}
 
         {registered && (
           <div className="registered">
-            <div className="div">
+            <div className="div-2">
               <img
                 className="clock-icon"
                 alt="Clock icon"
                 src="/img/clock-icon.png"
               />
 
-              <div className="text-wrapper">{initiativeNumberOfDays}</div>
+              <div className="text-wrapper-3">{initiativeNumberOfDays}</div>
             </div>
 
-            <div className="div">
+            <div className="div-2">
               <img
                 className="location-icon"
                 alt="Location icon"
                 src="/img/location-icon.png"
               />
 
-              <div className="text-wrapper">{initiativeLocation}</div>
+              <div className="text-wrapper-3">{initiativeLocation}</div>
             </div>
           </div>
         )}
@@ -88,7 +88,6 @@ export const InitiativeCard = ({
     </div>
   );
 };
-
 InitiativeCard.propTypes = {
   initiativeTitle: PropTypes.string,
   initiativeDay: PropTypes.string,

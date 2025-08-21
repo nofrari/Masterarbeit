@@ -1,10 +1,10 @@
-.erika-logo-icon1 {
+.erika-logo-icon {
   height: 37.7px;
   width: 40px;
   position: relative;
   object-fit: cover;
 }
-.erika-logo-text1 {
+.erika-logo-text {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -14,7 +14,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.logo1 {
+.logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,12 +33,12 @@
   gap: 25px;
 }
 .erika-progress-card,
-.header2,
+.header1,
 .options {
   display: flex;
   flex-direction: row;
 }
-.header2 {
+.header1 {
   align-self: stretch;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +101,7 @@
 }
 .homepage,
 .idea-submission,
-.main1 {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,14 +112,14 @@
   gap: var(--gap-8);
 }
 .homepage,
-.main1 {
+.main {
   width: 100%;
   box-sizing: border-box;
   gap: 35px;
   text-align: left;
   font-family: var(--font-quicksand);
 }
-.main1 {
+.main {
   justify-content: center;
   padding: 0 25px;
   max-width: 800px;

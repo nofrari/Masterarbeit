@@ -29,16 +29,16 @@ export const Accordion = ({
 
         {open && (
           <div className="up-icon">
-            <img className="img" alt="Up icon" src="/img/up-icon.png" />
+            <img className="up-icon-2" alt="Up icon" src="/img/up-icon.png" />
           </div>
         )}
 
         {closed && (
-          <div className="down-icon">
+          <div className="down-icon-wrapper">
             <img
-              className="down-icon-2"
+              className="down-icon-3"
               alt="Down icon"
-              src="/img/down-icon.png"
+              src="/img/down-icon-1.png"
             />
           </div>
         )}

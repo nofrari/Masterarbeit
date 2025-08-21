@@ -25,7 +25,7 @@
   width: 172px;
 }
 
-.calendar .text-wrapper-2 {
+.calendar .text-wrapper {
   color: #333333;
   font-family: var(--MA-p-font-family);
   font-size: var(--MA-p-font-size);
@@ -107,7 +107,7 @@
   width: 100%;
 }
 
-.calendar .text-wrapper-3 {
+.calendar .div {
   color: #007073;
   font-family: var(--MA-cardtitle-font-family);
   font-size: var(--MA-cardtitle-font-size);
@@ -129,7 +129,7 @@
   position: relative;
 }
 
-.calendar .img-3 {
+.calendar .img {
   height: 12px;
   position: relative;
   width: 7.41px;
@@ -158,7 +158,7 @@
   width: 38px;
 }
 
-.calendar .text-wrapper-4 {
+.calendar .text-wrapper-2 {
   color: #333333;
   font-family: var(--MA-lable-font-family);
   font-size: var(--MA-lable-font-size);

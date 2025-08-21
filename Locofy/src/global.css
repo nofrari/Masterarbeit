@@ -6,16 +6,16 @@ body {
 }
 :root {
   /* Color */
-  --color-powderblue: #c8e3e4;
   --color-teal: #007074;
-  --MA-warning: #d70000;
-  --MA-background: #f5f5f5;
-  --MA-foreground: #333;
+  --color-powderblue: #c8e3e4;
   --MA-secondary: #ad80eb;
-  --MA-white: #fff;
-  --MA-foreground-light: rgba(51, 51, 51, 0.5);
-  --MA-primary: #007073;
   --MA-tertiary: #009d2b;
+  --MA-foreground-light: rgba(51, 51, 51, 0.5);
+  --MA-warning: #d70000;
+  --MA-foreground: #333;
+  --MA-white: #fff;
+  --MA-primary: #007073;
+  --MA-background: #f5f5f5;
 
   /* Gap */
   --gap-2: 2px;

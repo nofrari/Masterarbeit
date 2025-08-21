@@ -72,7 +72,7 @@
   line-height: var(--MA-p-line-height);
 }
 
-.modal .text-wrapper-5 {
+.modal .text-wrapper-4 {
   font-family: var(--MA-p-bold-font-family);
   font-size: var(--MA-p-bold-font-size);
   font-style: var(--MA-p-bold-font-style);
@@ -81,7 +81,7 @@
   line-height: var(--MA-p-bold-line-height);
 }
 
-.modal .button-4 {
+.modal .button-2 {
   flex: 0 0 auto !important;
   z-index: 0 !important;
 }

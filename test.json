@@ -1,0 +1,35 @@
+{
+    "name": "[Draft V1.0] Carpooling über die Domino-App",
+    "startDate": "2025-08-04T06:00:00.000Z",
+    "endDate": "2025-09-30T23:59:00.000Z",
+    "type": "challenge",
+    "location": "Im Auto",
+    "completableFromStart": true,
+    "passCode": 78651,
+    "targetGroup": "Für Personen, die Fahrgemeinschaften erleben wollen",
+    "content": "Legst du immer wieder allein Strecken mit dem Auto zurück, bei denen du dich über Gesellschaft und einen geteilten Tankpreis freuen würdest?\nOder suchst du schon länger nach einer passenden Fahrgemeinschaft, die die schnell von A nach B bringt?\n\n Dann probier die Domino-App aus!\nMit ihr kannst du ganz einfach Fahrgemeinschaften gründen oder finden – und das österreichweit.\n\n Ob zur Arbeit, zum Einkaufen oder zu Veranstaltungen: Wer sich den Weg teilt, spart CO₂, reduziert Verkehr und lernt neue Leute kennen.\n\n Und gerade in einer Region wie Waidhofen ist geteilte Mobilität eine einfache Möglichkeit, gemeinsam etwas für die Umwelt zu tun.\n\n Wir freuen uns, wenn du dabei bist!",
+    "costs": "Variiert je nach Spritpreis und Fahrstrecke",
+    "whatToBring": "Dein Smartphone",
+    "organisatorName": "Projektteam Erika",
+    "organisatorTel": "-",
+    "organisatorEmail": "erika@fhstp.ac.at",
+    "isAccessible": true,
+    "participantCountInfo": null,
+    "maxParticipantCount": null,
+    "modules": [],
+    "timeTable": [
+        {
+            "title": "So funktioniert's!",
+            "description": "Wir starten mit einer Begrüßung.",
+            "modules": [
+              
+                {
+                    "type": "pdf",
+                    "title": "Dummy",
+                    "src": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+                }
+            ],
+            "duration": "00:01:10"
+        }
+    ]
+}

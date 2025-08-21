@@ -59,10 +59,10 @@ const Modal: FunctionComponent<ModalType> = ({
       </div>
       <section className="modal-content">{modalContent}</section>
       <Button
-        buttonName={buttonName}
-        backIcon={backIcon}
         isIconVisible={isIconVisible}
+        buttonName={buttonName}
         isNameVisible={isNameVisible}
+        onBackButtonContainerClick={onButtonClick}
         backButtonMargin={backButtonMargin}
         backButtonPosition={backButtonPosition}
         backButtonTop={backButtonTop}
@@ -70,9 +70,9 @@ const Modal: FunctionComponent<ModalType> = ({
         backButtonPadding={backButtonPadding}
         backButtonBorder={backButtonBorder}
         backButtonWidth={backButtonWidth}
+        backIcon={backIcon}
         buttonNameWidth={buttonNameWidth}
         buttonNameFlex={buttonNameFlex}
-        onBackButtonContainerClick={onButtonClick}
       />
     </div>
   );

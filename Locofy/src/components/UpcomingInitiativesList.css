@@ -11,6 +11,7 @@
   text-decoration: underline;
   color: var(--primary);
   text-align: center;
+  cursor: pointer;
 }
 .upcoming-initiatives-list {
   align-self: stretch;

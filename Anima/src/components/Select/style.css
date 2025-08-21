@@ -50,14 +50,14 @@
   width: fit-content;
 }
 
-.select .down-icon-wrapper {
+.select .down-icon {
   height: 18px;
   position: relative;
   transform: rotate(-90deg);
   width: 9px;
 }
 
-.select .down-icon-3 {
+.select .down-icon-2 {
   height: 9px;
   left: -4px;
   position: absolute;

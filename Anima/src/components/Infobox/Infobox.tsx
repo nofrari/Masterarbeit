@@ -17,7 +17,7 @@ interface Props {
 export const Infobox = ({
   content = "Content",
   className,
-  erikaPlant = "/img/erika-plant-1.png",
+  erikaPlant = "/img/erika-plant.png",
   colorCodingClassName,
 }: Props): JSX.Element => {
   return (

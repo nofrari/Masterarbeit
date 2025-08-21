@@ -5,9 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Calendar from "./pages/Calendar";
 import SubmitIdea from "./pages/SubmitIdea";
 import Homepage from "./pages/Homepage";
+import Calendar from "./pages/Calendar";
 
 function App() {
   const action = useNavigationType();
@@ -29,11 +29,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/submitidea":
+      case "/homepage":
         title = "";
         metaDescription = "";
         break;
-      case "/homepage":
+      case "/calendar":
         title = "";
         metaDescription = "";
         break;
@@ -55,9 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Calendar />} />
-      <Route path="/submitidea" element={<SubmitIdea />} />
+      <Route path="/" element={<SubmitIdea />} />
       <Route path="/homepage" element={<Homepage />} />
+      <Route path="/calendar" element={<Calendar />} />
     </Routes>
   );
 }

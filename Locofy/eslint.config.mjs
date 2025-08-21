@@ -2,6 +2,7 @@ import parser from "@typescript-eslint/parser";
 import tsPlugin from "@typescript-eslint/eslint-plugin";
 import reactPlugin from "eslint-plugin-react";
 import jsxA11y from "eslint-plugin-jsx-a11y";
+import stylistic from '@stylistic/eslint-plugin'
 import noForbiddenClassnames from "./eslint-rules/no-forbidden-classnames.js";
 import noBannedPropsInComponentTypes from "./eslint-rules/no-banned-props-in-component-types.js";
 import limitNumberOfProps from "./eslint-rules/limit-number-of-props.js";
@@ -10,6 +11,9 @@ import onlyOneH1 from "./eslint-rules/only-one-h1.js";
 import enforceLowerCamelcase from "./eslint-rules/enforce-lower-camelcase.js";
 import enforceUpperCamelcase from "./eslint-rules/enforce-upper-camelcase.js";
 import noRedundantTypeSuffix from "./eslint-rules/no-redundant-type-suffix.js";
+import checkEmptyAltTag from "./eslint-rules/check-empty-alt.js";
+import noDuplicateStyleBlocks from "./eslint-rules/no-duplicate-style-blocks.cjs";
+import countHTMLTags from "./eslint-rules/count-html-tags.js";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
@@ -39,6 +43,7 @@ export default defineConfig([
       "@typescript-eslint": tsPlugin,
       react: reactPlugin,
       "jsx-a11y": jsxA11y,
+      "@stylistic": stylistic,
       custom: {
         rules: {
           "no-forbidden-classnames": noForbiddenClassnames,
@@ -49,6 +54,9 @@ export default defineConfig([
           "enforce-lower-camelcase": enforceLowerCamelcase,
           "enforce-upper-camelcase": enforceUpperCamelcase,
           "no-redundant-type-suffix": noRedundantTypeSuffix,
+          "check-empty-alt": checkEmptyAltTag,
+          "no-duplicate-style-blocks": noDuplicateStyleBlocks,
+          "count-html-tags": countHTMLTags,
         },
       },
     },
@@ -56,9 +64,10 @@ export default defineConfig([
       // "max-lines": ["error", 300],
       // "id-length": ["error", { min: 2, max: 10 }],
       // "max-len": ["error", { code: 80 }],
+      "@stylistic/max-len": ["error", { code: 80 }],
 
       // "@typescript-eslint/no-explicit-any": "error",
-      // "@typescript-eslint/explicit-module-boundary-types": "error",
+      // "@typescript-eslint/explicit-function-return-type": "error",
 
       // "jsx-a11y/alt-text": "error",
       // "jsx-a11y/anchor-is-valid": "error",
@@ -79,45 +88,45 @@ export default defineConfig([
       // ],
       // "react/jsx-pascal-case": "error",
 
-     "custom/no-forbidden-classnames": [
-      "error",
-      {
-        forbidden: [
-          "a",
-          "body",
-          "button",
-          "div",
-          "form",
-          "footer",
-          "h1",
-          "h2",
-          "h3",
-          "h4",
-          "h5",
-          "h6",
-          "header",
-          "i",
-          "iframe",
-          "img",
-          "input",
-          "label",
-          "li",
-          "main",
-          "ol",
-          "p",
-          "section",
-          "span",
-          "strong",
-          "table",
-          "td",
-          "textarea",
-          "th",
-          "tr",
-          "ul"
-        ],
-      },
-    ],
-    "custom/no-redundant-type-suffix": "error",
+    //  "custom/no-forbidden-classnames": [
+    //   "error",
+    //   {
+    //     forbidden: [
+    //       "a",
+    //       "body",
+    //       "button",
+    //       "div",
+    //       "form",
+    //       "footer",
+    //       "h1",
+    //       "h2",
+    //       "h3",
+    //       "h4",
+    //       "h5",
+    //       "h6",
+    //       "header",
+    //       "i",
+    //       "iframe",
+    //       "img",
+    //       "input",
+    //       "label",
+    //       "li",
+    //       "main",
+    //       "ol",
+    //       "p",
+    //       "section",
+    //       "span",
+    //       "strong",
+    //       "table",
+    //       "td",
+    //       "textarea",
+    //       "th",
+    //       "tr",
+    //       "ul"
+    //     ],
+    //   },
+    // ],
+    // "custom/no-redundant-type-suffix": "error",
       // //Diese Regel ist eigenltich unnötig, da sie in keiner Metrik widergespiegelt wird.
       // // "custom/no-banned-props-in-component-types": [
       // //   "error",
@@ -128,6 +137,10 @@ export default defineConfig([
       // "custom/only-one-h1": "error",
       // "custom/enforce-lower-camelcase": "error",
       // "custom/enforce-upper-camelcase": "error",
+      // "custom/check-empty-alt": "error",
+      // "custom/no-duplicate-style-blocks": "error",
+      // "custom/count-html-tags": "warn",
+
 
       // "jsx-a11y/interactive-supports-focus": "error",
       // "jsx-a11y/no-noninteractive-tabindex": "error",

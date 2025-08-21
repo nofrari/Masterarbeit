@@ -15,16 +15,16 @@ const router = createBrowserRouter([
     element: <Homepage />,
   },
   {
+    path: "/calendar",
+    element: <CalendarScreen />,
+  },
+  {
     path: "/submitidea",
     element: <SubmitIdea />,
   },
   {
     path: "/modal",
     element: <Modal />,
-  },
-  {
-    path: "/calendar",
-    element: <CalendarScreen />,
   },
 ]);
 

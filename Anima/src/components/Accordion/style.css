@@ -44,7 +44,7 @@
   width: 9px;
 }
 
-.accordion .img {
+.accordion .up-icon-2 {
   height: 9px;
   left: -4px;
   position: absolute;
@@ -53,14 +53,14 @@
   width: 18px;
 }
 
-.accordion .down-icon {
+.accordion .down-icon-wrapper {
   height: 18px;
   position: relative;
   transform: rotate(-90deg);
   width: 9px;
 }
 
-.accordion .down-icon-2 {
+.accordion .down-icon-3 {
   height: 9px;
   left: -4px;
   position: absolute;

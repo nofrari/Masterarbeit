@@ -4,6 +4,10 @@ import "./NavigationBar.css";
 
 export type NavigationBarType = {
   className?: string;
+  homepage?: boolean;
+  calendar?: boolean;
+  showCalendarIcon?: boolean;
+  calendarIconVisible?: boolean;
 
   /** Action props */
   onHomeIconClick?: () => void;
@@ -14,11 +18,15 @@ const NavigationBar: FunctionComponent<NavigationBarType> = ({
   className = "",
   onHomeIconClick,
   onCalendarIconClick,
+  homepage = true,
+  calendar = false,
+  showCalendarIcon,
+  calendarIconVisible,
 }) => {
   const navigate = useNavigate();
 
   const onCalendarIconClick1 = useCallback(() => {
-    navigate("/");
+    navigate("/calendar");
   }, [navigate]);
 
   return (
@@ -30,20 +38,30 @@ const NavigationBar: FunctionComponent<NavigationBarType> = ({
           alt=""
           src="WaidhofenApp_Icon.png"
         />
-        <img
-          className="home-icon"
-          loading="lazy"
-          alt=""
-          src="Home_Icon.svg"
-          onClick={onHomeIconClick}
-        />
-        <img
-          className="calendar-icon"
-          loading="lazy"
-          alt=""
-          src="Calendar_Icon.svg"
-          onClick={onCalendarIconClick}
-        />
+        {!!homepage && (
+          <img
+            className="home-icon"
+            loading="lazy"
+            alt=""
+            src="Home_Icon.svg"
+            onClick={onHomeIconClick}
+          />
+        )}
+        {!!calendar && (
+          <img className="home-icon1" alt="" src="Home_Icon.svg" />
+        )}
+        {!!showCalendarIcon && (
+          <img
+            className="calendar-icon"
+            loading="lazy"
+            alt=""
+            src="Calendar_Icon.svg"
+            onClick={onCalendarIconClick}
+          />
+        )}
+        {!!calendarIconVisible && (
+          <img className="home-icon1" alt="" src="Calendar_Icon.svg" />
+        )}
         <img className="home-icon" loading="lazy" alt="" src="List_Icon.svg" />
         <img
           className="waidhofenapp-icon"

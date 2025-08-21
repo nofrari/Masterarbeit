@@ -15,7 +15,7 @@ export const BasicIcon = ({ className }: Props): JSX.Element => {
     <img
       className={`basic-icon ${className}`}
       alt="Basic icon"
-      src="/img/initiative-type-icon.png"
+      src="/img/button-icon.png"
     />
   );
 };

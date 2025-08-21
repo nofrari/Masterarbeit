@@ -5,16 +5,16 @@ export type InitiativeCardType = {
   className?: string;
   initiativeTitle?: string;
   initiativeDay?: string;
+  default1?: boolean;
   initiativeMonthAndYear?: string;
   initiativeTime?: string;
   initiativeNumberOfDays?: string;
   initiativeLocation?: string;
+  registered?: boolean;
   challengeIcon?: string;
   clockIcon?: string;
   locationIcon?: string;
   initiativeLocation1?: string;
-  default1?: boolean;
-  registered?: boolean;
 
   /** Style props */
   registerdInitiativeCardBackground?: CSSProperties["background"];
@@ -38,21 +38,21 @@ const InitiativeCard: FunctionComponent<InitiativeCardType> = ({
   className = "",
   initiativeTitle = "1 Woche Vegan",
   initiativeDay = "30.",
+  default1 = false,
   initiativeMonthAndYear = "Jun 2025",
   initiativeTime = "17:00 - 21:00",
   initiativeNumberOfDays = "Tag 3 von 7",
   initiativeLocation = "Zuhause",
-  challengeIcon,
-  clockIcon,
-  locationIcon,
-  initiativeLocation1,
-  default1 = false,
   registered = true,
   registerdInitiativeCardBackground,
+  challengeIcon,
   defaultInitiativeDetailsWidth,
   defaultInitiativeDetailsAlignSelf,
   registeredInitiativeDetailsAlignSelf,
   registeredInitiativeDetailsWidth,
+  clockIcon,
+  locationIcon,
+  initiativeLocation1,
   registerdInitiativeCardBorder,
   registerdInitiativeCardBackgroundColor,
   initiativeDayMargin,

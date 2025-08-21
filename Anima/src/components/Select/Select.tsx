@@ -23,11 +23,11 @@ export const Select = ({
       <div className="select-input">
         <div className="select-options">-</div>
 
-        <div className="down-icon-wrapper">
+        <div className="down-icon">
           <img
-            className="down-icon-3"
+            className="down-icon-2"
             alt="Down icon"
-            src="/img/down-icon-1.png"
+            src="/img/down-icon.png"
           />
         </div>
       </div>

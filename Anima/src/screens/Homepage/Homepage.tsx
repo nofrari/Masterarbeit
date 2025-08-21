@@ -12,33 +12,33 @@ import "./style.css";
 export const Homepage = (): JSX.Element => {
   return (
     <div className="homepage" data-model-id="2830:871">
-      <header className="header">
-        <div className="logo">
+      <header className="header-4">
+        <div className="logo-2">
           <img
-            className="erika-logo"
+            className="erika-logo-2"
             alt="Erika logo"
             src="/img/erika-logo-1.png"
           />
 
-          <div className="erika-logo-text">ERIKA</div>
+          <div className="erika-logo-text-2">ERIKA</div>
         </div>
 
         <div className="options">
           <img
-            className="img-4"
+            className="img-3"
             alt="Customize icon"
             src="/img/customize-icon.png"
           />
 
           <img
-            className="img-4"
+            className="img-3"
             alt="Notification icon"
             src="/img/notification-icon-1.png"
           />
         </div>
       </header>
 
-      <div className="main">
+      <div className="main-2">
         <img
           className="erika-progress-card"
           alt="Erika progress card"
@@ -56,11 +56,11 @@ export const Homepage = (): JSX.Element => {
         </div>
 
         <div className="initiatives">
-          <div className="div-2">
+          <div className="div-3">
             <div className="section-title">Laufende Initiative(n)</div>
 
             <InitiativeCard
-              className="registerd-initiative"
+              className="registerd-initiative-2"
               default1={false}
               initiativeDay="30."
               initiativeLocation="Zuhause"
@@ -68,17 +68,17 @@ export const Homepage = (): JSX.Element => {
               initiativeNumberOfDays="Tag 3 von 7"
               initiativeTitle="1 Woche Vegan"
               override={
-                <ChallengeIcon className="design-component-instance-node" />
+                <ChallengeIcon className="design-component-instance-node-4" />
               }
             />
           </div>
 
-          <div className="div-2">
+          <div className="div-3">
             <div className="section-title">Kommende Initiativen</div>
 
             <InitiativeCard
-              className="default-initiative-2"
-              defaultInitiativeClassName="initiative-card-instance"
+              className="default-initiative-3"
+              defaultInitiativeClassName="default-initiative-4"
               initiativeDay="01."
               initiativeLocation="Oberer Stadtplatz"
               initiativeMonthAndYear="Jul 2025"
@@ -86,14 +86,14 @@ export const Homepage = (): JSX.Element => {
               initiativeTitle="Wochenmarkt"
               override={
                 <OfferIcon
-                  className="design-component-instance-node"
+                  className="design-component-instance-node-4"
                   offerIcon="/img/offericon-3.png"
                 />
               }
               registered={false}
             />
             <InitiativeCard
-              className="default-initiative-2"
+              className="default-initiative-3"
               initiativeDay="02."
               initiativeLocation="STURMFrei Werkraum"
               initiativeMonthAndYear="Jul 2025"
@@ -101,15 +101,15 @@ export const Homepage = (): JSX.Element => {
               initiativeTitle="Repair Café"
               override={
                 <WorkshopIcon
-                  className="workshop-icon-instance"
+                  className="workshop-icon-2"
                   workshopIcon="/img/workshopicon-2.png"
                 />
               }
               registered={false}
             />
             <InitiativeCard
-              className="default-initiative-2"
-              defaultInitiativeClassName="initiative-card-instance"
+              className="default-initiative-3"
+              defaultInitiativeClassName="default-initiative-4"
               initiativeDay="04."
               initiativeLocation="Oberer Stadtplatz"
               initiativeMonthAndYear="Jul 2025"
@@ -117,22 +117,24 @@ export const Homepage = (): JSX.Element => {
               initiativeTitle="Wochenmarkt"
               override={
                 <OfferIcon
-                  className="design-component-instance-node"
+                  className="design-component-instance-node-4"
                   offerIcon="/img/offericon-3.png"
                 />
               }
               registered={false}
             />
-            <div className="calendar-link">Zum Kalender</div>
+             <Link className="calendar-link" to="/calendar">
+              Zum Kalender
+            </Link>
           </div>
         </div>
 
         <Button
-          buttonClassName="button-instance"
+          buttonClassName="button-3"
           buttonName="Entdecke passende Initiativen"
-          override={<SparkleIcon className="sparkle-icon-instance" />}
+          override={<SparkleIcon className="button-icon-2" />}
         />
-        <div className="div-2">
+        <div className="div-3">
           <div className="section-header">
             <div className="section-title-2">Ideen bewerten</div>
 
@@ -177,7 +179,7 @@ export const Homepage = (): JSX.Element => {
           </p>
 
           <Link to="/submitidea">
-            <button className="button-2">
+            <button className="button-4">
               <div className="plant-icon-wrapper">
                 <img
                   className="plant-icon"
@@ -193,9 +195,9 @@ export const Homepage = (): JSX.Element => {
       </div>
 
       <img
-        className="navigation-bar"
+        className="navigation-bar-2"
         alt="Navigation bar"
-        src="/img/navigationbar.png"
+        src="/img/navigationbar-1.png"
       />
     </div>
   );

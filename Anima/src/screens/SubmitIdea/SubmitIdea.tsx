@@ -20,34 +20,36 @@ export const SubmitIdea = (): JSX.Element => {
         <div className="form-title">Idee einreichen</div>
       </header>
 
-      <div className="form">
-        <div className="required-info">* Pflichtfelder</div>
+      <div className="form-wrapper">
+        <div className="form">
+          <div className="required-info">* Pflichtfelder</div>
 
-        <TextField
-          className="design-component-instance-node-2"
-          textFieldLabel="Titel *"
-        />
-        <TextArea
-          className="design-component-instance-node-2"
-          textAreaLabel="Beschreibung *"
-        />
-        <Select
-          className="design-component-instance-node-2"
-          selectLabel="Kategorie *"
-        />
-        <TextArea
-          className="design-component-instance-node-2"
-          textAreaLabel="Warum ist die Initiative gut gegen die Klimakrise? *"
-        />
-        <Checkbox
-          checkboxLabel="Ich kann die Idee selbst umsetzen."
-          className="design-component-instance-node-2"
-        />
-        <Button
-          buttonClassName="button-3"
-          buttonName="Einreichen"
-          isIconVisible={false}
-        />
+          <TextField
+            className="design-component-instance-node-3"
+            textFieldLabel="Titel *"
+          />
+          <TextArea
+            className="design-component-instance-node-3"
+            textAreaLabel="Beschreibung *"
+          />
+          <Select
+            className="design-component-instance-node-3"
+            selectLabel="Kategorie *"
+          />
+          <TextArea
+            className="design-component-instance-node-3"
+            textAreaLabel="Warum ist die Initiative gut gegen die Klimakrise? *"
+          />
+          <Checkbox
+            checkboxLabel="Ich kann die Idee selbst umsetzen."
+            className="design-component-instance-node-3"
+          />
+          <Button
+            buttonClassName="button-instance"
+            buttonName="Einreichen"
+            isIconVisible={false}
+          />
+        </div>
       </div>
     </div>
   );

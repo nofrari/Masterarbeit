@@ -14,7 +14,7 @@ export const Default: Story = {
   args: {
     content: "Content",
     className: {},
-    erikaPlant: "/img/erika-plant-1.png",
+    erikaPlant: "/img/erika-plant.png",
     colorCodingClassName: {},
   },
 };

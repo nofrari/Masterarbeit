@@ -9,7 +9,7 @@
   width: 393px;
 }
 
-.homepage .header {
+.homepage .header-4 {
   align-items: center;
   align-self: stretch;
   background-color: transparent;
@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-.homepage .logo {
+.homepage .logo-2 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -30,14 +30,14 @@
   position: relative;
 }
 
-.homepage .erika-logo {
+.homepage .erika-logo-2 {
   height: 37.72px;
   object-fit: cover;
   position: relative;
   width: 40px;
 }
 
-.homepage .erika-logo-text {
+.homepage .erika-logo-text-2 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
@@ -68,14 +68,14 @@
   position: relative;
 }
 
-.homepage .img-4 {
+.homepage .img-3 {
   height: 25px;
   object-fit: cover;
   position: relative;
   width: 25px;
 }
 
-.homepage .main {
+.homepage .main-2 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -120,6 +120,20 @@
   position: relative;
 }
 
+.homepage .section-title-2 {
+  color: var(--maforeground);
+  font-family: var(--MA-h2-font-family);
+  font-size: var(--MA-h2-font-size);
+  font-style: var(--MA-h2-font-style);
+  font-weight: var(--MA-h2-font-weight);
+  letter-spacing: var(--MA-h2-letter-spacing);
+  line-height: var(--MA-h2-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
 .homepage .virtual-garden-2 {
   height: 216px;
   margin-bottom: -10.00px;
@@ -143,7 +157,7 @@
   width: 100%;
 }
 
-.homepage .div-2 {
+.homepage .div-3 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -154,7 +168,7 @@
   width: 100%;
 }
 
-.homepage .registerd-initiative {
+.homepage .registerd-initiative-2 {
   align-self: stretch !important;
   background: linear-gradient(
     90deg,
@@ -165,24 +179,24 @@
   width: 100% !important;
 }
 
-.homepage .design-component-instance-node {
+.homepage .design-component-instance-node-4 {
   left: unset !important;
   margin-left: -2.00px !important;
   position: relative !important;
   top: unset !important;
 }
 
-.homepage .initiative-card-instance {
-  overflow: unset !important;
-}
-
-.homepage .default-initiative-2 {
+.homepage .default-initiative-3 {
   align-self: stretch !important;
   flex: 0 0 auto !important;
   width: 100% !important;
 }
 
-.homepage .workshop-icon-instance {
+.homepage .default-initiative-4 {
+  overflow: unset !important;
+}
+
+.homepage .workshop-icon-2 {
   left: unset !important;
   position: relative !important;
   top: unset !important;
@@ -191,6 +205,7 @@
 
 .homepage .calendar-link {
   align-self: stretch;
+  display: block;
   color: var(--maprimary);
   font-family: var(--MA-link-font-family);
   font-size: var(--MA-link-font-size);
@@ -203,12 +218,12 @@
   text-decoration: underline;
 }
 
-.homepage .button-instance {
+.homepage .button-3 {
   flex: 0 0 auto !important;
   width: 100% !important;
 }
 
-.homepage .sparkle-icon-instance {
+.homepage .button-icon-2 {
   height: 19.25px !important;
   left: unset !important;
   margin-left: -4.62px !important;
@@ -227,19 +242,7 @@
   width: 100%;
 }
 
-.homepage .section-title-2 {
-  color: var(--maforeground);
-  font-family: var(--MA-h2-font-family);
-  font-size: var(--MA-h2-font-size);
-  font-style: var(--MA-h2-font-style);
-  font-weight: var(--MA-h2-font-weight);
-  letter-spacing: var(--MA-h2-letter-spacing);
-  line-height: var(--MA-h2-line-height);
-  margin-top: -1.00px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
+
 
 .homepage .info-icon {
   align-items: center;
@@ -300,7 +303,7 @@
   position: relative;
 }
 
-.homepage .button-2 {
+.homepage .button-4 {
   all: unset;
   align-items: center;
   background-color: var(--maprimary);
@@ -346,7 +349,7 @@
   text-align: center;
 }
 
-.homepage .navigation-bar {
+.homepage .navigation-bar-2 {
   align-self: stretch;
   flex: 0 0 auto;
   margin-bottom: -6.00px;

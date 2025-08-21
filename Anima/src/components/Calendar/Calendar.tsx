@@ -16,7 +16,7 @@ export const Calendar = ({ className }: Props): JSX.Element => {
     <div className={`calendar ${className}`}>
       <div className="calendar-options">
         <div className="preference-option">
-          <div className="text-wrapper-2">Deine Präferenzen</div>
+          <div className="text-wrapper">Deine Präferenzen</div>
 
           <ToogleSwitch className="toogle-switch-instance" />
         </div>
@@ -40,17 +40,13 @@ export const Calendar = ({ className }: Props): JSX.Element => {
         <div className="overlap-group">
           <div className="calendar-body">
             <div className="month-and-year">
-              <div className="text-wrapper-3">Juli 2025</div>
+              <div className="div">Juli 2025</div>
 
               <div className="pagination">
-                <img
-                  className="img-3"
-                  alt="Left icon"
-                  src="/img/left-icon.png"
-                />
+                <img className="img" alt="Left icon" src="/img/left-icon.png" />
 
                 <img
-                  className="img-3"
+                  className="img"
                   alt="Right icon"
                   src="/img/right-icon.png"
                 />
@@ -59,31 +55,31 @@ export const Calendar = ({ className }: Props): JSX.Element => {
 
             <div className="weekdays">
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Mo</div>
+                <div className="text-wrapper-2">Mo</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Di</div>
+                <div className="text-wrapper-2">Di</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Mi</div>
+                <div className="text-wrapper-2">Mi</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Do</div>
+                <div className="text-wrapper-2">Do</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Fr</div>
+                <div className="text-wrapper-2">Fr</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">Sa</div>
+                <div className="text-wrapper-2">Sa</div>
               </div>
 
               <div className="div-wrapper">
-                <div className="text-wrapper-4">So</div>
+                <div className="text-wrapper-2">So</div>
               </div>
             </div>
 
@@ -96,27 +92,27 @@ export const Calendar = ({ className }: Props): JSX.Element => {
                 </div>
 
                 <div className="date">
-                  <div className="text-wrapper-2">1</div>
+                  <div className="text-wrapper">1</div>
                 </div>
 
                 <div className="date">
-                  <div className="text-wrapper-2">2</div>
+                  <div className="text-wrapper">2</div>
                 </div>
 
                 <div className="date">
-                  <div className="text-wrapper-2">3</div>
+                  <div className="text-wrapper">3</div>
                 </div>
 
                 <div className="date">
-                  <div className="text-wrapper-2">4</div>
+                  <div className="text-wrapper">4</div>
                 </div>
 
                 <div className="date">
-                  <div className="text-wrapper-2">5</div>
+                  <div className="text-wrapper">5</div>
                 </div>
 
                 <div className="date-wrapper">
-                  <div className="text-wrapper-2">6</div>
+                  <div className="text-wrapper">6</div>
                 </div>
               </div>
 

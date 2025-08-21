@@ -13,7 +13,7 @@ const Infobox: FunctionComponent<InfoboxType> = ({
   return (
     <div className={`infobox ${className}`}>
       <img
-        className="erika-plant-icon"
+        className="erika-plant-icon1"
         loading="lazy"
         alt=""
         src="Erika Plant.svg"

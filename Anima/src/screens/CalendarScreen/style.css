@@ -9,7 +9,7 @@
   width: 393px;
 }
 
-.calendar-screen .header-4 {
+.calendar-screen .header {
   align-items: center;
   align-self: stretch;
   background-color: transparent;
@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-.calendar-screen .logo-2 {
+.calendar-screen .logo {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -29,14 +29,14 @@
   position: relative;
 }
 
-.calendar-screen .erika-logo-2 {
+.calendar-screen .erika-logo {
   height: 37.72px;
   object-fit: cover;
   position: relative;
   width: 40px;
 }
 
-.calendar-screen .erika-logo-text-2 {
+.calendar-screen .erika-logo-text {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(
@@ -46,23 +46,16 @@
   );
   background-clip: text;
   color: transparent;
-  font-family: "Quicksand", Helvetica;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: normal;
+  font-family: var(--MA-logotext-font-family);
+  font-size: var(--MA-logotext-font-size);
+  font-style: var(--MA-logotext-font-style);
+  font-weight: var(--MA-logotext-font-weight);
+  letter-spacing: var(--MA-logotext-letter-spacing);
+  line-height: var(--MA-logotext-line-height);
   margin-top: -1.00px;
   position: relative;
   text-fill-color: transparent;
   width: fit-content;
-}
-
-.calendar-screen .notification-icon-wrapper {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 25px;
-  position: relative;
 }
 
 .calendar-screen .notification-icon {
@@ -72,7 +65,7 @@
   width: 25px;
 }
 
-.calendar-screen .main-2 {
+.calendar-screen .main {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -85,7 +78,7 @@
   width: 100%;
 }
 
-.calendar-screen .design-component-instance-node-3 {
+.calendar-screen .design-component-instance-node {
   flex: 0 0 auto !important;
   width: 100% !important;
 }
@@ -100,7 +93,7 @@
   width: 100% !important;
 }
 
-.calendar-screen .button-icon-2 {
+.calendar-screen .sparkle-icon-instance {
   height: 19.25px !important;
   left: unset !important;
   margin-left: -4.62px !important;
@@ -120,7 +113,7 @@
   width: 100%;
 }
 
-.calendar-screen .registerd-initiative-2 {
+.calendar-screen .registerd-initiative {
   align-self: stretch !important;
   background: linear-gradient(
     90deg,
@@ -131,24 +124,24 @@
   width: 100% !important;
 }
 
-.calendar-screen .design-component-instance-node-4 {
+.calendar-screen .design-component-instance-node-2 {
   left: unset !important;
   margin-left: -2.00px !important;
   position: relative !important;
   top: unset !important;
 }
 
-.calendar-screen .default-initiative-3 {
+.calendar-screen .initiative-card-instance {
+  overflow: unset !important;
+}
+
+.calendar-screen .default-initiative-2 {
   align-self: stretch !important;
   flex: 0 0 auto !important;
   width: 100% !important;
 }
 
-.calendar-screen .default-initiative-4 {
-  overflow: unset !important;
-}
-
-.calendar-screen .workshop-icon-2 {
+.calendar-screen .workshop-icon-instance {
   left: unset !important;
   position: relative !important;
   top: unset !important;
@@ -175,7 +168,7 @@
   text-decoration: underline;
 }
 
-.calendar-screen .navigation-bar-2 {
+.calendar-screen .navigation-bar {
   align-self: stretch;
   flex: 0 0 auto;
   position: relative;

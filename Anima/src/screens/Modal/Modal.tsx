@@ -33,7 +33,7 @@ export const Modal = (): JSX.Element => {
         </p>
 
         <p className="text-i">
-          <span className="text-wrapper-5">
+          <span className="text-wrapper-4">
             Hier kannst du die Ideen anderer bewerten und so mitbestimmen,
             welche verwirklicht werden.
           </span>
@@ -41,7 +41,7 @@ export const Modal = (): JSX.Element => {
       </div>
 
       <Button
-        buttonClassName="button-4"
+        buttonClassName="button-2"
         buttonName="Verstanden"
         isIconVisible={false}
         to="/homepage"

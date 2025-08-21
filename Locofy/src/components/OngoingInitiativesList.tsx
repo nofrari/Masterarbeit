@@ -15,16 +15,16 @@ const OngoingInitiativesList: FunctionComponent<OngoingInitiativesListType> = ({
       <InitiativeCard
         initiativeTitle="1 Woche Vegan"
         initiativeDay="30."
+        default1={false}
         initiativeMonthAndYear="Jun 2025"
         initiativeTime="17:00 - 21:00"
         initiativeNumberOfDays="Tag 3 von 7"
         initiativeLocation="Zuhause"
+        registered
         challengeIcon="ChallengeIcon.svg"
         clockIcon="Clock Icon.svg"
         locationIcon="Location Icon.svg"
         initiativeLocation1="Zuhause"
-        default1={false}
-        registered
       />
     </div>
   );
