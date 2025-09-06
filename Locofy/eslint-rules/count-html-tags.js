@@ -6,7 +6,7 @@ module.exports = {
   meta: {
     type: "problem",
     docs: {
-      description: "Zählt die Verwendung aller HTML-Tags im JSX-Code.",
+      description: "Counts the usage of all HTML tags in JSX code.",
     },
     schema: [],
   },
