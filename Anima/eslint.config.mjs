@@ -1,6 +1,6 @@
 import { defineConfig } from "eslint/config";
-import parser from "@typescript-eslint/parser";
 import reactPlugin from "eslint-plugin-react";
+import parser from "@typescript-eslint/parser";
 import tsPlugin from "@typescript-eslint/eslint-plugin";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import stylistic from '@stylistic/eslint-plugin'
@@ -58,7 +58,6 @@ export default defineConfig([
     rules: {
       "max-lines": ["error", 300],
       "id-length": ["error", { min: 2, max: 10 }],
-      "max-len": ["error", { code: 80 }],
 
       "react/jsx-max-depth": ["error", { max: 4 }],
       "react/jsx-handler-names": "error",
