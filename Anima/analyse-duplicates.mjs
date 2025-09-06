@@ -17,7 +17,7 @@ try {
 
 const issues = report[0]?.warnings ?? [];
 
-// Zähle alle Blöcke anhand von geschweiften Klammern
+// Count all blocks based on curly braces
 const totalBlocks = fs.readFileSync('./.temp-all.css', 'utf8')
   .split('}')
   .filter(b => b.includes('{')).length;
