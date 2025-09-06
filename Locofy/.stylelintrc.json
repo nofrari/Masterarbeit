@@ -1,5 +1,5 @@
 {
-  "plugins": ["./eslint-rules/no-duplicate-style-blocks.cjs"],
+  "plugins": ["./custom-rules/no-duplicate-style-blocks.cjs"],
   "rules": {
     "custom/no-duplicate-style-blocks": true
   }
