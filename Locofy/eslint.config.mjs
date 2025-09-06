@@ -5,14 +5,14 @@ import tsPlugin from "@typescript-eslint/eslint-plugin";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import stylistic from '@stylistic/eslint-plugin'
 
-import checkEmptyAltTag from "./eslint-rules/check-empty-alt.js";
-import countHTMLTags from "./eslint-rules/count-html-tags.js";
-import jsxHeadingOrder from "./eslint-rules/jsx-heading-order.js";
-import limitNumberOfProps from "./eslint-rules/limit-number-of-props.js";
-import noDuplicateStyleBlocks from "./eslint-rules/no-duplicate-style-blocks.cjs";
-import noForbiddenClassnames from "./eslint-rules/no-forbidden-classnames.js";
-import noRedundantTypeSuffix from "./eslint-rules/no-redundant-type-suffix.js";
-import onlyOneH1 from "./eslint-rules/only-one-h1.js";
+import checkEmptyAltTag from "./custom-rules/check-empty-alt.js";
+import countHTMLTags from "./custom-rules/count-html-tags.js";
+import jsxHeadingOrder from "./custom-rules/jsx-heading-order.js";
+import limitNumberOfProps from "./custom-rules/limit-number-of-props.js";
+import noDuplicateStyleBlocks from "./custom-rules/no-duplicate-style-blocks.cjs";
+import noForbiddenClassnames from "./custom-rules/no-forbidden-classnames.js";
+import noRedundantTypeSuffix from "./custom-rules/no-redundant-type-suffix.js";
+import onlyOneH1 from "./custom-rules/only-one-h1.js";
 
 export default defineConfig([
   {
@@ -87,7 +87,6 @@ export default defineConfig([
       "custom/jsx-heading-order": ["error", { maxSkip: 1 }],
       "custom/limit-number-of-props": ["error", { max: 3 }],
       "custom/no-duplicate-style-blocks": "error",
-      "custom/no-redundant-type-suffix": "error",
       "custom/no-forbidden-classnames": [
         "error",
         {
@@ -126,6 +125,7 @@ export default defineConfig([
           ],
         },
       ],
+      "custom/no-redundant-type-suffix": "error",
       "custom/only-one-h1": "error",
     },
   },
