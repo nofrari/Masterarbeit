@@ -1,5 +1,3 @@
-// eslint-rules/count-html-tags.js
-
 const tagCounts = {};
 
 module.exports = {
