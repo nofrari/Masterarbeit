@@ -1,12 +1,10 @@
-// eslint-rules/count-html-tags.js
-
 const tagCounts = {};
 
 export default {
   meta: {
     type: "problem",
     docs: {
-      description: "Zählt die Verwendung aller HTML-Tags im JSX-Code.",
+      description: "Counts the usage of all HTML tags in JSX code.",
     },
     schema: [],
   },
